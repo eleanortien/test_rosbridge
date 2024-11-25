@@ -10,8 +10,8 @@ You might be tempted to look at the rosbridge documentation but I swear some of 
 
 ## Running Rosbridge
 1. ros2 launch rosbridge_server rosbridge_websocket_launch.xml
-  should give: [INFO] [1541100534.152110]: Rosbridge WebSocket server started on port 9090
-  -> you can make a custom .launch file and run ros2 launch newFile to choose which port to run
+- should give: [INFO] [1541100534.152110]: Rosbridge WebSocket server started on port 9090
+ - -> you can make a custom .launch file and run ros2 launch newFile to choose which port to run
 
 ## Webserver Explanation
 1. HTML Script uses roslibjs (could not figure out if python works for this, webdev confusing ;-;) -> requires two components:
