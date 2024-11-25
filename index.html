@@ -42,7 +42,7 @@
         });
 
         // Create a listener for /my_topic
-        const my_topic_listener = new ROSLIB.TOPIC({
+        const my_topic_listener = new ROSLIB.Topic({
           ros,
           name: "/my_topic",
           messageType: "std_msgs/String",
